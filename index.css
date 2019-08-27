@@ -251,7 +251,7 @@ header #sign-up:hover {
   font-size: 2rem;
   cursor: pointer;
   width: 25rem;
-  font-size: 30px;
+  font-size: 25px;
   height: 6rem;
   border-radius: 0;
   font-weight: bold;
@@ -270,6 +270,10 @@ header #sign-up:hover {
 .call-to-action button a {
   text-decoration: none;
   color: black;
+  display: flex;
+}
+.call-to-action button a i {
+  padding-left: 2rem;
 }
 .title {
   font-weight: 900;
