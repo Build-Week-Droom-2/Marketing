@@ -171,6 +171,11 @@ table {
   border-radius: 30px;
   color: #733be3;
 }
+.team {
+  text-align: center;
+  font-size: 50px;
+  margin: 30px;
+}
 .signup {
   display: flex;
   justify-content: space-evenly;
@@ -234,13 +239,12 @@ table {
   height: 85vh;
   display: flex;
   padding: 20px;
-  border-radius: 30px;
   flex-wrap: wrap;
 }
 .why .whytop {
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
 }
 .why .whytop img {
   height: 25vh;
@@ -255,8 +259,8 @@ table {
 }
 .why .middle {
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
 }
 .why .middle img {
   height: 25vh;
@@ -272,8 +276,8 @@ table {
 }
 .why .whybottom {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: space-evenly;
 }
 .why img {
   height: 25vh;
@@ -286,4 +290,199 @@ table {
 .why em {
   color: #1b8852;
   font-size: 20px;
+}
+.overall {
+  margin: 30px;
+}
+.overall .firstrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+.overall .firstrow .firstrowleft {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.overall .firstrow .firstrowleft .personpic1 {
+  height: 25vh;
+  width: 275px;
+}
+.overall .firstrow .firstrowleft .github1 {
+  height: 25px;
+  width: 25px;
+}
+.overall .firstrow .firstrowmiddle {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.overall .firstrow .firstrowmiddle .personpic2 {
+  height: 25vh;
+  width: 275px;
+}
+.overall .firstrow .firstrowmiddle .github2 {
+  height: 25px;
+  width: 25px;
+}
+.overall .firstrow .firstrowright {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.overall .firstrow .firstrowright .personpic3 {
+  height: 25vh;
+  width: 275px;
+}
+.overall .firstrow .firstrowright .github3 {
+  height: 25px;
+  width: 25px;
+}
+.overall .secondrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+.overall .secondrow .secondrowleft {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.overall .secondrow .secondrowleft .personpic1 {
+  height: 25vh;
+  width: 275px;
+}
+.overall .secondrow .secondrowleft .github1 {
+  height: 25px;
+  width: 25px;
+}
+.overall .secondrow .secondrowmiddle {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.overall .secondrow .secondrowmiddle .personpic2 {
+  height: 25vh;
+  width: 275px;
+}
+.overall .secondrow .secondrowmiddle .github2 {
+  height: 25px;
+  width: 25px;
+}
+.overall .secondrow .secondrowright {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.overall .secondrow .secondrowright .personpic3 {
+  height: 25vh;
+  width: 275px;
+}
+.overall .secondrow .secondrowright .github3 {
+  height: 25px;
+  width: 25px;
+}
+.overall .thirdrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+.overall .thirdrow .thirdrowleft {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.overall .thirdrow .thirdrowleft .personpic1 {
+  height: 25vh;
+  width: 275px;
+}
+.overall .thirdrow .thirdrowleft .github1 {
+  height: 25px;
+  width: 25px;
+}
+.overall .thirdrow .thirdrowmiddle {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.overall .thirdrow .thirdrowmiddle .personpic2 {
+  height: 25vh;
+  width: 275px;
+}
+.overall .thirdrow .thirdrowmiddle .github2 {
+  height: 25px;
+  width: 25px;
+}
+.overall .thirdrow .thirdrowright {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.overall .thirdrow .thirdrowright .personpic3 {
+  height: 25vh;
+  width: 275px;
+}
+.overall .thirdrow .thirdrowright .github3 {
+  height: 25px;
+  width: 25px;
+}
+.overall .fourthrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+.overall .fourthrow .fourthrowleft {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.overall .fourthrow .fourthrowleft .personpic1 {
+  height: 25vh;
+  width: 275px;
+}
+.overall .fourthrow .fourthrowleft .github1 {
+  height: 25px;
+  width: 25px;
+}
+.overall .fourthrow .fourthrowmiddle {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.overall .fourthrow .fourthrowmiddle .personpic2 {
+  height: 25vh;
+  width: 275px;
+}
+.overall .fourthrow .fourthrowmiddle .github2 {
+  height: 25px;
+  width: 25px;
+}
+.overall .fourthrow .fourthrowright {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.overall .fourthrow .fourthrowright .personpic3 {
+  height: 25vh;
+  width: 275px;
+}
+.overall .fourthrow .fourthrowright .github3 {
+  height: 25px;
+  width: 25px;
 }
