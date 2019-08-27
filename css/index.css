@@ -222,3 +222,68 @@ table {
   width: 30%;
   border: 1px solid black;
 }
+#question {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
+  color: #733be3;
+}
+.why {
+  margin: 30px;
+  height: 85vh;
+  display: flex;
+  padding: 20px;
+  border-radius: 30px;
+  flex-wrap: wrap;
+}
+.why .whytop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.why .whytop img {
+  height: 25vh;
+  width: 450px;
+}
+.why .whytop p {
+  width: 50%;
+  color: #525252;
+}
+.why .whytop em {
+  color: #1b8852;
+}
+.why .middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.why .middle img {
+  height: 25vh;
+  width: 450px;
+}
+.why .middle p {
+  width: 50%;
+  color: #525252;
+}
+.why .middle em {
+  color: #1b8852;
+  font-size: 20px;
+}
+.why .whybottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.why img {
+  height: 25vh;
+  width: 450px;
+}
+.why p {
+  width: 50%;
+  color: #525252;
+}
+.why em {
+  color: #1b8852;
+  font-size: 20px;
+}
