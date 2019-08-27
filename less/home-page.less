@@ -1,8 +1,6 @@
 // home
 .signup {
-  display: flex;
-  justify-content: space-evenly;
-  // border: 1px solid black !important;
+  .flexevenly();
   height: 80vh;
   margin-top: 20px; 
   margin-right: 20px;
@@ -10,11 +8,8 @@
 
   .mainpic {
     width: 50%;
-    // border:1px solid black !important;
-    display: flex;
+    .flexcenter();
     align-items: center;
-    justify-content: center;
-
     img {
       height: 70vh;
       width: 685px;
@@ -22,11 +17,8 @@
   }
   .maintext {
     width: 50%;
-    // border:1px solid black !important;
-    display: flex;
+    .flexcenter();
     align-items: center;
-    justify-content: center;
-    font-family: 'Raleway', sans-serif;
     text-align: center;
     flex-wrap: wrap;
     margin: 120px 0px 120px 0px;
@@ -34,20 +26,15 @@
     h1 {
       font-weight: bold;
       font-size: 50px;
-      color: #525252;
+      color: @text-color;
     }
     button {
-      font-size: 20px;
-      display: block;
-      padding: 20px;
-      border-radius: 30px;
-      color: #ffffff;
-      background-color: #733be3;
+      .buttonlayout(#ffffff, @main-color, 20px, 30%);
     }
 
     button:hover {
-      background-color: #ffffff;
-      color:  #733be3;
+
+      .buttonlayout(@main-color, #ffffff, 20px, 30%);
       border: 1px solid black;
     }
   }

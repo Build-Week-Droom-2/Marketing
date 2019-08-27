@@ -129,8 +129,7 @@ table {
   border-spacing: 0;
 }
 * {
-  box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif !important;
 }
 /* Components */
 .navbar {
@@ -161,7 +160,6 @@ table {
   text-decoration: none;
   color: #ffffff;
   padding: 10px;
-  font-family: 'Raleway', sans-serif;
 }
 .navbar .navlinks a:visited {
   text-decoration: none;
@@ -184,8 +182,8 @@ table {
 .signup .mainpic {
   width: 50%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 .signup .mainpic img {
   height: 70vh;
@@ -194,9 +192,8 @@ table {
 .signup .maintext {
   width: 50%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-family: 'Raleway', sans-serif;
+  align-items: center;
   text-align: center;
   flex-wrap: wrap;
   margin: 120px 0px 120px 0px;
@@ -207,15 +204,21 @@ table {
   color: #525252;
 }
 .signup .maintext button {
-  font-size: 20px;
-  display: block;
-  padding: 20px;
-  border-radius: 30px;
   color: #ffffff;
   background-color: #733be3;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+  width: 30%;
 }
 .signup .maintext button:hover {
-  background-color: #ffffff;
   color: #733be3;
+  background-color: #ffffff;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+  width: 30%;
   border: 1px solid black;
 }

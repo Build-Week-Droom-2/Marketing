@@ -1,10 +1,9 @@
 // Navigation Styles here
 .navbar {
-    display: flex;
-    justify-content: space-evenly;
+    .flexevenly();
     align-items: center;
     height: 15vh;
-    background-color: #733be3;
+    background-color: @main-color;
     .logo {
         width: 30%;
         text-align: center;
@@ -20,15 +19,12 @@
     .navlinks {
         width: 70%;
         text-align: center;
-        display: flex;
-        justify-content: space-evenly;
-
+        .flexevenly();
         a {
             letter-spacing: 1.5px;
             text-decoration: none;
             color: #ffffff;
             padding: 10px;
-            font-family: 'Raleway', sans-serif;
         }
 
         a:visited {
@@ -40,9 +36,8 @@
             border: 1px solid black;
             background-color: #ffffff;
             border-radius: 30px;
-            color: #733be3;
-          
-            // background-color: #ccf5e0;
+            color: @main-color;
+             
         }
     }
 
