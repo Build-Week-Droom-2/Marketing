@@ -1,23 +1,27 @@
+
 #header-links {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    // border-bottom: @border-style;
+    background-color: @bright-purple; 
+    width: 100%;
+    img {
+        width: 14%;
+        height: 100%;
+        margin-left: -.06em;
+    }
     .links {
         display: flex;
+        width: 70%;
+        flex-wrap: wrap;
         justify-content: space-evenly;
-        padding-top: 1em;
-        padding-bottom: .8em;
-        width: 80%;
-    
-        a {
-        text-decoration: none;
-        font-size: 1.5rem;
-        color: @bright-green;
-        font-weight: bold;
-        &:hover {
+        a{
+            text-decoration: none;
             font-size: 1.6rem;
+            color: #fff;
+            font-weight: bold;
+        &:hover {
+            color: @light-green;
         }
         }
     }
