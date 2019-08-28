@@ -224,6 +224,9 @@ header button:hover {
     margin: 10px 0;
   }
 }
+header #contact {
+  width: 12rem;
+}
 header #sign-up {
   background-color: black;
   color: white;
@@ -373,8 +376,6 @@ header #sign-up:hover {
   text-align: center;
   width: 40%;
   margin-top: 15rem;
-}
-@media (max-width: 800px) {
 }
 footer {
   padding: 5rem 0;
