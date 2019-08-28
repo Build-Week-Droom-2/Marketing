@@ -1,10 +1,12 @@
 #question {
 
-    margin-top: 30px;
+    margin-top: 80px;
     margin-bottom: 30px;
     text-align:center;
     font-size: 40px;
     color: @main-color;
+
+
   }
   .why {
     margin: 30px;
@@ -12,20 +14,47 @@
     display: flex;
     padding: 20px;
     flex-wrap: wrap;
+    @media @mobile {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      margin-top: 50px;
+      padding: 0px;
+      height: 10vh;
+
+    }
   
     .whytop{
       .flexaround();
       align-items: center;
+
+
+      @media @mobile {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 30px;
+      }
   
       img {
         height: 25vh;
         width: 450px;
+        @media @mobile {
+          width: 50%;
+        }
       }
   
       p {
         width: 50%;
         color: @text-color;
+
+        @media @mobile {
+          width: 75%;
+          margin-top: 30px;
+        }
       }
+
+
   
       em {
         color: @complementary-color;
@@ -36,13 +65,28 @@
     .middle {
       .flexaround();
       align-items: center;
+
+      @media @mobile {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        margin: 30px;
+      }
       img {
         height: 25vh;
         width: 450px;
+
+        @media @mobile {
+          width: 50%;
+        }
       }
       p {
         width: 50%;
         color: @text-color;
+        @media @mobile {
+          width: 75%;
+          margin-top: 30px;
+        }
       }
       em {
         color: @complementary-color;
@@ -54,14 +98,33 @@
     .whybottom {
       .flexaround();
       align-items: center; 
+
+
+      @media @mobile {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 30px;
+      }
+
     }
+    
     img {
       height: 25vh;
       width: 450px;
+
+      @media @mobile {
+        width: 50%;
+      }
     }
     p {
       width: 50%;
       color: @text-color;
+
+      @media @mobile {
+        width: 75%;
+        margin-top: 30px;
+      }
     }
     em {
       color: @complementary-color;

@@ -5,18 +5,34 @@
   margin-top: 20px; 
   margin-right: 20px;
   margin-left: 15px;
+  @media @mobile {
+    height: 60vh;
+  }
+
+
+  
 
   .mainpic {
     width: 50%;
     .flexcenter();
     align-items: center;
+
+    @media @mobile {
+      display: none;
+    }
     img {
       height: 70vh;
       width: 685px;
+
+      
     }
   }
   .maintext {
     width: 50%;
+
+    @media @mobile {
+      width: 75%;
+    }
     .flexcenter();
     align-items: center;
     text-align: center;
@@ -30,12 +46,18 @@
     }
     button {
       .buttonlayout(#ffffff, @main-color, 20px, 30%);
+      @media @mobile {
+        .buttonlayout(#ffffff, @main-color, 20px, 100%);
+      }
     }
 
     button:hover {
 
       .buttonlayout(@main-color, #ffffff, 20px, 30%);
       border: 1px solid black;
+      @media @mobile {
+        .buttonlayout(#ffffff, @main-color, 20px, 100%);
+      }
     }
   }
 }

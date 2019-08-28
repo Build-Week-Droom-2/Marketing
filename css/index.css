@@ -139,6 +139,20 @@ table {
   height: 15vh;
   background-color: #733be3;
 }
+@media (max-width: 500px) {
+  .navbar {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .navbar {
+    width: 100%;
+    height: 30vh;
+    color: #733be3;
+    display: flex;
+    flex-direction: column;
+  }
+}
 .navbar .logo {
   width: 30%;
   text-align: center;
@@ -154,6 +168,12 @@ table {
   text-align: center;
   display: flex;
   justify-content: space-evenly;
+}
+@media (max-width: 500px) {
+  .navbar .navlinks {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .navbar .navlinks a {
   letter-spacing: 1.5px;
@@ -185,11 +205,21 @@ table {
   margin-right: 20px;
   margin-left: 15px;
 }
+@media (max-width: 500px) {
+  .signup {
+    height: 60vh;
+  }
+}
 .signup .mainpic {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .signup .mainpic {
+    display: none;
+  }
 }
 .signup .mainpic img {
   height: 70vh;
@@ -203,6 +233,11 @@ table {
   text-align: center;
   flex-wrap: wrap;
   margin: 120px 0px 120px 0px;
+}
+@media (max-width: 500px) {
+  .signup .maintext {
+    width: 75%;
+  }
 }
 .signup .maintext h1 {
   font-weight: bold;
@@ -218,6 +253,17 @@ table {
   text-align: center;
   width: 30%;
 }
+@media (max-width: 500px) {
+  .signup .maintext button {
+    color: #ffffff;
+    background-color: #733be3;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    width: 100%;
+  }
+}
 .signup .maintext button:hover {
   color: #733be3;
   background-color: #ffffff;
@@ -228,8 +274,19 @@ table {
   width: 30%;
   border: 1px solid black;
 }
+@media (max-width: 500px) {
+  .signup .maintext button:hover {
+    color: #ffffff;
+    background-color: #733be3;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    width: 100%;
+  }
+}
 #question {
-  margin-top: 30px;
+  margin-top: 80px;
   margin-bottom: 30px;
   text-align: center;
   font-size: 40px;
@@ -242,18 +299,47 @@ table {
   padding: 20px;
   flex-wrap: wrap;
 }
+@media (max-width: 500px) {
+  .why {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    padding: 0px;
+    height: 10vh;
+  }
+}
 .why .whytop {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .why .whytop {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 30px;
+  }
+}
 .why .whytop img {
   height: 25vh;
   width: 450px;
 }
+@media (max-width: 500px) {
+  .why .whytop img {
+    width: 50%;
+  }
+}
 .why .whytop p {
   width: 50%;
   color: #525252;
+}
+@media (max-width: 500px) {
+  .why .whytop p {
+    width: 75%;
+    margin-top: 30px;
+  }
 }
 .why .whytop em {
   color: #1b8852;
@@ -263,13 +349,32 @@ table {
   justify-content: space-around;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .why .middle {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    margin: 30px;
+  }
+}
 .why .middle img {
   height: 25vh;
   width: 450px;
 }
+@media (max-width: 500px) {
+  .why .middle img {
+    width: 50%;
+  }
+}
 .why .middle p {
   width: 50%;
   color: #525252;
+}
+@media (max-width: 500px) {
+  .why .middle p {
+    width: 75%;
+    margin-top: 30px;
+  }
 }
 .why .middle em {
   color: #1b8852;
@@ -280,13 +385,32 @@ table {
   justify-content: space-around;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .why .whybottom {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 30px;
+  }
+}
 .why img {
   height: 25vh;
   width: 450px;
 }
+@media (max-width: 500px) {
+  .why img {
+    width: 50%;
+  }
+}
 .why p {
   width: 50%;
   color: #525252;
+}
+@media (max-width: 500px) {
+  .why p {
+    width: 75%;
+    margin-top: 30px;
+  }
 }
 .why em {
   color: #1b8852;
@@ -301,12 +425,24 @@ table {
   align-items: center;
   margin: 30px;
 }
+@media (max-width: 500px) {
+  .overall .firstrow {
+    flex-direction: column;
+  }
+}
 .overall .firstrow .firstrowleft {
   width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-left: 300px;
+}
+@media (max-width: 500px) {
+  .overall .firstrow .firstrowleft {
+    padding: 0px;
+    margin-top: 20px;
+    text-align: center;
+  }
 }
 .overall .firstrow .firstrowleft .name {
   font-size: 25px;
@@ -332,6 +468,13 @@ table {
   align-items: center;
   padding-right: 300px;
 }
+@media (max-width: 500px) {
+  .overall .firstrow .firstrowmiddle {
+    padding: 0px;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
 .overall .firstrow .firstrowmiddle .name {
   font-size: 25px;
   color: #525252;
@@ -355,11 +498,23 @@ table {
   align-items: center;
   margin: 30px;
 }
+@media (max-width: 500px) {
+  .overall .secondrow {
+    flex-direction: column;
+  }
+}
 .overall .secondrow .secondrowleft {
   width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .overall .secondrow .secondrowleft {
+    padding: 0px;
+    margin-top: 20px;
+    text-align: center;
+  }
 }
 .overall .secondrow .secondrowleft .name {
   font-size: 25px;
@@ -384,6 +539,13 @@ table {
   flex-direction: column;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .overall .secondrow .secondrowmiddle {
+    padding: 0px;
+    margin: 20px;
+    text-align: center;
+  }
+}
 .overall .secondrow .secondrowmiddle .name {
   font-size: 25px;
   color: #525252;
@@ -406,6 +568,13 @@ table {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .overall .secondrow .secondrowright {
+    padding: 0px;
+    margin: 20px;
+    text-align: center;
+  }
 }
 .overall .secondrow .secondrowright .name {
   font-size: 25px;
@@ -430,11 +599,23 @@ table {
   align-items: center;
   margin: 30px;
 }
+@media (max-width: 500px) {
+  .overall .thirdrow {
+    flex-direction: column;
+  }
+}
 .overall .thirdrow .thirdrowleft {
   width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .overall .thirdrow .thirdrowleft {
+    padding: 0px;
+    margin: 20px;
+    text-align: center;
+  }
 }
 .overall .thirdrow .thirdrowleft .name {
   font-size: 25px;
@@ -459,6 +640,13 @@ table {
   flex-direction: column;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .overall .thirdrow .thirdrowmiddle {
+    padding: 0px;
+    margin: 20px;
+    text-align: center;
+  }
+}
 .overall .thirdrow .thirdrowmiddle .name {
   font-size: 25px;
   color: #525252;
@@ -481,6 +669,13 @@ table {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .overall .thirdrow .thirdrowright {
+    padding: 0px;
+    margin: 20px;
+    text-align: center;
+  }
 }
 .overall .thirdrow .thirdrowright .name {
   font-size: 25px;
@@ -505,11 +700,23 @@ table {
   align-items: center;
   margin: 30px;
 }
+@media (max-width: 500px) {
+  .overall .fourthrow {
+    flex-direction: column;
+  }
+}
 .overall .fourthrow .fourthrowmiddle {
   width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .overall .fourthrow .fourthrowmiddle {
+    padding: 0px;
+    margin: 20px;
+    text-align: center;
+  }
 }
 .overall .fourthrow .fourthrowmiddle .name {
   font-size: 25px;
@@ -533,6 +740,13 @@ table {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .overall .fourthrow .fourthrowright {
+    padding: 0px;
+    margin: 20px;
+    text-align: center;
+  }
 }
 .overall .fourthrow .fourthrowright .name {
   font-size: 25px;
