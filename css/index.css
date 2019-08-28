@@ -197,6 +197,20 @@ table {
   margin: 30px 30px 50px 30px;
   color: #733be3;
 }
+footer {
+  color: #ffffff;
+  background: #733be3;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  footer {
+    display: none;
+  }
+}
 .signup {
   display: flex;
   justify-content: space-evenly;
@@ -211,10 +225,11 @@ table {
   }
 }
 .signup .mainpic {
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 @media (max-width: 500px) {
   .signup .mainpic {
@@ -222,21 +237,26 @@ table {
   }
 }
 .signup .mainpic img {
-  height: 70vh;
-  width: 685px;
+  height: 100%;
+  width: 100%;
 }
 .signup .maintext {
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-  margin: 120px 0px 120px 0px;
+  margin: 120px;
 }
 @media (max-width: 500px) {
   .signup .maintext {
     width: 75%;
+  }
+}
+@media (max-width: 500px) {
+  .signup .maintext {
+    margin: 120px 0px 120px 0px;
   }
 }
 .signup .maintext h1 {
@@ -307,6 +327,9 @@ table {
     margin-top: 50px;
     padding: 0px;
     height: 10vh;
+  }
+  .why footer {
+    width: 100%;
   }
 }
 .why .whytop {

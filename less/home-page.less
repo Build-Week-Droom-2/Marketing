@@ -13,22 +13,23 @@
   
 
   .mainpic {
-    width: 50%;
+    width: 60%;
     .flexcenter();
     align-items: center;
+    margin-top: 30px;
 
     @media @mobile {
       display: none;
     }
     img {
-      height: 70vh;
-      width: 685px;
+      height: 100%;
+      width: 100%;
 
       
     }
   }
   .maintext {
-    width: 50%;
+    width: 40%;
 
     @media @mobile {
       width: 75%;
@@ -37,7 +38,11 @@
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    margin: 120px 0px 120px 0px;
+    margin: 120px;
+
+    @media @mobile {
+      margin: 120px 0px 120px 0px;
+    }
 
     h1 {
       font-weight: bold;
