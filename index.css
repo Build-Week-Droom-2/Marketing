@@ -169,7 +169,7 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .container {
     width: 80%;
   }
@@ -187,6 +187,14 @@ header {
   top: 0;
   opacity: 1;
   background: white;
+}
+@media (max-width: 800px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    position: initial;
+  }
 }
 header img {
   width: 10rem;
@@ -208,6 +216,14 @@ header button a {
 header button:hover {
   background-color: grey;
 }
+@media (max-width: 800px) {
+  header button {
+    min-width: 300px;
+    width: 80%;
+    padding: 30px 10px;
+    margin: 10px 0;
+  }
+}
 header #sign-up {
   background-color: black;
   color: white;
@@ -216,7 +232,6 @@ header #sign-up:hover {
   background-color: grey;
 }
 .call-to-action {
-  border: 3px solid black;
   border-radius: 8rem;
   display: flex;
   flex-direction: row;
@@ -233,6 +248,11 @@ header #sign-up:hover {
 .call-to-action img {
   width: 60%;
   height: auto;
+}
+@media (max-width: 800px) {
+  .call-to-action img {
+    display: none;
+  }
 }
 .call-to-action h1 {
   font-weight: 900;
@@ -267,6 +287,11 @@ header #sign-up:hover {
 .call-to-action button:hover {
   background-color: grey;
 }
+@media (max-width: 800px) {
+  .call-to-action button {
+    margin: 0px auto;
+  }
+}
 .call-to-action button a {
   text-decoration: none;
   color: black;
@@ -292,6 +317,13 @@ header #sign-up:hover {
   padding: 2rem;
   margin-top: 2rem;
 }
+@media (max-width: 800px) {
+  .step-1,
+  .step-2,
+  .step-3 {
+    width: 100%;
+  }
+}
 .step-1 div,
 .step-2 div,
 .step-3 div {
@@ -308,6 +340,13 @@ header #sign-up:hover {
   width: 100%;
   height: auto;
 }
+@media (max-width: 800px) {
+  .step-1 div img,
+  .step-2 div img,
+  .step-3 div img {
+    display: none;
+  }
+}
 .step-1 div p,
 .step-2 div p,
 .step-3 div p {
@@ -315,6 +354,14 @@ header #sign-up:hover {
   font-weight: bold;
   font-size: 30px;
   text-transform: uppercase;
+  text-emphasis: center;
+}
+@media (max-width: 800px) {
+  .step-1 div p,
+  .step-2 div p,
+  .step-3 div p {
+    margin-left: 20px;
+  }
 }
 .step-1 h1,
 .step-2 h1,
@@ -324,6 +371,8 @@ header #sign-up:hover {
   text-align: center;
   width: 40%;
   margin-top: 15rem;
+}
+@media (max-width: 800px) {
 }
 footer {
   padding: 5rem 0;
@@ -359,6 +408,12 @@ footer .top p {
   font-size: 30px;
   justify-content: space-around;
 }
+@media (max-width: 800px) {
+  footer .top {
+    display: flex;
+    flex-direction: column;
+  }
+}
 footer .bottom {
   border: 2px solid black;
   border-radius: 50px;
@@ -366,6 +421,11 @@ footer .bottom {
   padding: 20px 50px;
   width: 100%;
   font-weight: 900;
+}
+@media (max-width: 800px) {
+  footer .bottom {
+    padding-right: 20px;
+  }
 }
 footer .bottom p {
   font-size: 30px;
@@ -375,6 +435,11 @@ h1 {
   font-size: 50px;
   text-align: center;
   padding: 3rem 0;
+}
+@media (max-width: 800px) {
+  h1 {
+    margin-top: 8rem;
+  }
 }
 .teams {
   display: grid;

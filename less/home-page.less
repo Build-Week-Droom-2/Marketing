@@ -7,16 +7,27 @@ header{
     margin-top: 3rem;
     position: -webkit-sticky;  // required for Safari
     position: sticky;
-    top: 0; // required as well.
-    //border: 2px solid black;
+    top: 0;
     opacity: 1;
     background: white;
+    @media @mobile{
+        .flex(column);
+        height: 30rem;
+        position: initial;
+        
+      }
     img{
         width: 10rem;
         height: 10rem;
     }
     button{
         .button(white);
+        @media @mobile{
+            min-width: 300px;
+            width: 80%;
+            padding: 30px 10px;
+            margin:10px 0;
+          }
     }
 
     #sign-up{
@@ -29,7 +40,7 @@ header{
 }
 
 .call-to-action{
-    border: 3px solid black;
+    //border: 3px solid black;
     border-radius: 8rem;
     .flex(row);  
      padding: 2rem;
@@ -44,7 +55,9 @@ header{
     img{
         width: 60%;
         height: auto;
-
+        @media @mobile{
+            display: none;
+        }
     }
     h1{
         font-weight: 900;
@@ -53,6 +66,7 @@ header{
         text-transform: uppercase;
         text-align: center;
         line-height: 8rem;
+
     }
     button{
         .button();
@@ -65,6 +79,9 @@ header{
         text-transform: uppercase;
         margin-left: 7rem;
         box-shadow: -3px 5px #33332d;
+        @media @mobile{
+            margin: 0px auto;
+        }
         a{
             text-decoration: none;
             color: black;
@@ -90,6 +107,10 @@ header{
     .flex(row);  
      padding: 2rem;
      margin-top: 2rem; 
+     @media @mobile{
+        width: 100%;
+    }
+
 
     div{
         .flex(column);
@@ -100,6 +121,9 @@ header{
         img{
             width: 100%;
             height: auto;
+            @media @mobile{
+                display: none;
+            }
         }   
 
         p{
@@ -107,6 +131,10 @@ header{
             font-weight: bold;
             font-size: 30px;
             text-transform: uppercase;
+            text-emphasis: center;
+            @media @mobile{
+                margin-left: 20px;
+             }
         }
     }
     
@@ -116,6 +144,9 @@ header{
         text-align: center;
         width: 40%;
         margin-top: 15rem;
+        @media @mobile{
+           // width: 30%;
+        }
     }
 }
 
@@ -141,6 +172,12 @@ footer{
         justify-content: space-around;
     }
 
+    .top{
+        @media @mobile{
+            .flex(column);
+        }
+    }
+
     .bottom{
         border: 2px solid black;
         border-radius: 50px;
@@ -148,6 +185,9 @@ footer{
         padding: 20px 50px;;
         width: 100%;
         font-weight: 900;
+        @media @mobile{
+           padding-right: 20px;
+         }
         p{
             font-size: 30px;
         }
