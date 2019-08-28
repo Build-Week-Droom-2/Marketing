@@ -191,6 +191,7 @@ p {
   align-items: center;
   background-color: #733BE3;
   width: 100%;
+  margin-bottom: 2em;
 }
 #header-links img {
   width: 14%;
