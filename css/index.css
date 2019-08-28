@@ -174,7 +174,8 @@ table {
 .team {
   text-align: center;
   font-size: 50px;
-  margin: 30px;
+  margin: 30px 30px 50px 30px;
+  color: #733be3;
 }
 .signup {
   display: flex;
@@ -301,46 +302,52 @@ table {
   margin: 30px;
 }
 .overall .firstrow .firstrowleft {
-  width: 33%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 300px;
+}
+.overall .firstrow .firstrowleft .name {
+  font-size: 25px;
+  color: #525252;
+}
+.overall .firstrow .firstrowleft .role {
+  color: #1b8852;
 }
 .overall .firstrow .firstrowleft .personpic1 {
   height: 25vh;
   width: 275px;
+  margin: 10px;
 }
 .overall .firstrow .firstrowleft .github1 {
   height: 25px;
   width: 25px;
+  margin: 10px;
 }
 .overall .firstrow .firstrowmiddle {
-  width: 33%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-right: 300px;
+}
+.overall .firstrow .firstrowmiddle .name {
+  font-size: 25px;
+  color: #525252;
+}
+.overall .firstrow .firstrowmiddle .role {
+  color: #1b8852;
 }
 .overall .firstrow .firstrowmiddle .personpic2 {
   height: 25vh;
   width: 275px;
+  margin: 10px;
 }
 .overall .firstrow .firstrowmiddle .github2 {
   height: 25px;
   width: 25px;
-}
-.overall .firstrow .firstrowright {
-  width: 33%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.overall .firstrow .firstrowright .personpic3 {
-  height: 25vh;
-  width: 275px;
-}
-.overall .firstrow .firstrowright .github3 {
-  height: 25px;
-  width: 25px;
+  margin: 10px;
 }
 .overall .secondrow {
   display: flex;
@@ -354,13 +361,22 @@ table {
   flex-direction: column;
   align-items: center;
 }
+.overall .secondrow .secondrowleft .name {
+  font-size: 25px;
+  color: #525252;
+}
+.overall .secondrow .secondrowleft .role {
+  color: #1b8852;
+}
 .overall .secondrow .secondrowleft .personpic1 {
   height: 25vh;
   width: 275px;
+  margin: 10px;
 }
 .overall .secondrow .secondrowleft .github1 {
   height: 25px;
   width: 25px;
+  margin: 10px;
 }
 .overall .secondrow .secondrowmiddle {
   width: 33%;
@@ -368,13 +384,22 @@ table {
   flex-direction: column;
   align-items: center;
 }
+.overall .secondrow .secondrowmiddle .name {
+  font-size: 25px;
+  color: #525252;
+}
+.overall .secondrow .secondrowmiddle .role {
+  color: #1b8852;
+}
 .overall .secondrow .secondrowmiddle .personpic2 {
   height: 25vh;
   width: 275px;
+  margin: 10px;
 }
 .overall .secondrow .secondrowmiddle .github2 {
   height: 25px;
   width: 25px;
+  margin: 10px;
 }
 .overall .secondrow .secondrowright {
   width: 33%;
@@ -382,13 +407,22 @@ table {
   flex-direction: column;
   align-items: center;
 }
+.overall .secondrow .secondrowright .name {
+  font-size: 25px;
+  color: #525252;
+}
+.overall .secondrow .secondrowright .role {
+  color: #1b8852;
+}
 .overall .secondrow .secondrowright .personpic3 {
   height: 25vh;
   width: 275px;
+  margin: 10px;
 }
 .overall .secondrow .secondrowright .github3 {
   height: 25px;
   width: 25px;
+  margin: 10px;
 }
 .overall .thirdrow {
   display: flex;
@@ -402,13 +436,22 @@ table {
   flex-direction: column;
   align-items: center;
 }
+.overall .thirdrow .thirdrowleft .name {
+  font-size: 25px;
+  color: #525252;
+}
+.overall .thirdrow .thirdrowleft .role {
+  color: #1b8852;
+}
 .overall .thirdrow .thirdrowleft .personpic1 {
   height: 25vh;
   width: 275px;
+  margin: 10px;
 }
 .overall .thirdrow .thirdrowleft .github1 {
   height: 25px;
   width: 25px;
+  margin: 10px;
 }
 .overall .thirdrow .thirdrowmiddle {
   width: 33%;
@@ -416,13 +459,22 @@ table {
   flex-direction: column;
   align-items: center;
 }
+.overall .thirdrow .thirdrowmiddle .name {
+  font-size: 25px;
+  color: #525252;
+}
+.overall .thirdrow .thirdrowmiddle .role {
+  color: #1b8852;
+}
 .overall .thirdrow .thirdrowmiddle .personpic2 {
   height: 25vh;
   width: 275px;
+  margin: 10px;
 }
 .overall .thirdrow .thirdrowmiddle .github2 {
   height: 25px;
   width: 25px;
+  margin: 10px;
 }
 .overall .thirdrow .thirdrowright {
   width: 33%;
@@ -430,13 +482,22 @@ table {
   flex-direction: column;
   align-items: center;
 }
+.overall .thirdrow .thirdrowright .name {
+  font-size: 25px;
+  color: #525252;
+}
+.overall .thirdrow .thirdrowright .role {
+  color: #1b8852;
+}
 .overall .thirdrow .thirdrowright .personpic3 {
   height: 25vh;
   width: 275px;
+  margin: 10px;
 }
 .overall .thirdrow .thirdrowright .github3 {
   height: 25px;
   width: 25px;
+  margin: 10px;
 }
 .overall .fourthrow {
   display: flex;
@@ -444,33 +505,28 @@ table {
   align-items: center;
   margin: 30px;
 }
-.overall .fourthrow .fourthrowleft {
-  width: 33%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.overall .fourthrow .fourthrowleft .personpic1 {
-  height: 25vh;
-  width: 275px;
-}
-.overall .fourthrow .fourthrowleft .github1 {
-  height: 25px;
-  width: 25px;
-}
 .overall .fourthrow .fourthrowmiddle {
   width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.overall .fourthrow .fourthrowmiddle .name {
+  font-size: 25px;
+  color: #525252;
+}
+.overall .fourthrow .fourthrowmiddle .role {
+  color: #1b8852;
+}
 .overall .fourthrow .fourthrowmiddle .personpic2 {
   height: 25vh;
   width: 275px;
+  margin: 10px;
 }
 .overall .fourthrow .fourthrowmiddle .github2 {
   height: 25px;
   width: 25px;
+  margin: 10px;
 }
 .overall .fourthrow .fourthrowright {
   width: 33%;
@@ -478,11 +534,20 @@ table {
   flex-direction: column;
   align-items: center;
 }
+.overall .fourthrow .fourthrowright .name {
+  font-size: 25px;
+  color: #525252;
+}
+.overall .fourthrow .fourthrowright .role {
+  color: #1b8852;
+}
 .overall .fourthrow .fourthrowright .personpic3 {
   height: 25vh;
   width: 275px;
+  margin: 10px;
 }
 .overall .fourthrow .fourthrowright .github3 {
   height: 25px;
   width: 25px;
+  margin: 10px;
 }
