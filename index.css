@@ -283,7 +283,6 @@ header #sign-up:hover {
   text-transform: uppercase;
   margin-left: 7rem;
   box-shadow: -3px 5px #33332d;
-  z-index: -1;
 }
 .call-to-action button a {
   color: black;
@@ -296,14 +295,6 @@ header #sign-up:hover {
   .call-to-action button {
     margin: 0px auto;
   }
-}
-.call-to-action button a {
-  text-decoration: none;
-  color: black;
-  display: flex;
-}
-.call-to-action button a i {
-  padding-left: 2rem;
 }
 .title {
   font-weight: 900;
