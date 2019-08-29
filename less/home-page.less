@@ -50,15 +50,16 @@
       color: @text-color;
     }
     button {
-      .buttonlayout(#ffffff, @main-color, 20px, 30%);
+      .buttonlayout(#ffffff, @main-color, 20px, 50%);
       @media @mobile {
         .buttonlayout(#ffffff, @main-color, 20px, 100%);
+        margin: 50px;
       }
     }
 
     button:hover {
 
-      .buttonlayout(@main-color, #ffffff, 20px, 30%);
+      .buttonlayout(@main-color, #ffffff, 20px, 50%);
       border: 1px solid black;
       @media @mobile {
         .buttonlayout(#ffffff, @main-color, 20px, 100%);

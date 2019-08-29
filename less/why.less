@@ -4,7 +4,12 @@
     margin-bottom: 30px;
     text-align:center;
     font-size: 40px;
-    color: @main-color;
+    color: #ffffff;
+    height: 15vh;
+    background-color: #3d148f;
+    .flexcenter();
+    align-items: center;
+
 
 
   }
@@ -31,6 +36,7 @@
     .whytop{
       .flexaround();
       align-items: center;
+      margin: 30px;
 
 
       @media @mobile {
@@ -41,10 +47,10 @@
       }
   
       img {
-        height: 25vh;
+        height: 35vh;
         width: 450px;
         @media @mobile {
-          width: 50%;
+          width: 100%;
         }
       }
   
@@ -52,8 +58,9 @@
         width: 50%;
         color: @text-color;
 
+
         @media @mobile {
-          width: 75%;
+          width: 100%;
           margin-top: 30px;
         }
       }
@@ -77,62 +84,33 @@
         margin: 30px;
       }
       img {
-        height: 25vh;
+        height: 35vh;
         width: 450px;
 
         @media @mobile {
-          width: 50%;
+          width: 100%;
         }
       }
       p {
         width: 50%;
         color: @text-color;
         @media @mobile {
-          width: 75%;
+          width: 100%;
           margin-top: 30px;
         }
       }
       em {
         color: @complementary-color;
         font-size: 20px;
+        font-weight:bold;
       
       }
     }
   
-    .whybottom {
-      .flexaround();
-      align-items: center; 
-
-
-      @media @mobile {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        margin: 30px;
-      }
-
-    }
-    
-    img {
-      height: 25vh;
-      width: 450px;
-
-      @media @mobile {
-        width: 50%;
-      }
-    }
-    p {
-      width: 50%;
-      color: @text-color;
-
-      @media @mobile {
-        width: 75%;
-        margin-top: 30px;
-      }
-    }
     em {
       color: @complementary-color;
       font-size: 20px;
+      font-weight: bold;
     
     }
   }
