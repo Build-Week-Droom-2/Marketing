@@ -148,7 +148,7 @@ table {
 @media (max-width: 500px) {
   .navbar {
     width: 100%;
-    height: 50vh;
+    height: 35%;
     color: #3d148f;
     display: flex;
     flex-direction: column;
@@ -422,7 +422,7 @@ footer {
 }
 .overall .firstrow {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 30px;
 }
@@ -432,11 +432,10 @@ footer {
   }
 }
 .overall .firstrow .firstrowleft {
-  width: 50%;
+  width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 300px;
 }
 @media (max-width: 500px) {
   .overall .firstrow .firstrowleft {
@@ -463,11 +462,10 @@ footer {
   margin: 10px;
 }
 .overall .firstrow .firstrowmiddle {
-  width: 50%;
+  width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-right: 300px;
 }
 @media (max-width: 500px) {
   .overall .firstrow .firstrowmiddle {
