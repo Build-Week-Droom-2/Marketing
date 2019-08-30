@@ -22,26 +22,37 @@ header{
     }
     button{
         .button();
+ 
         @media @mobile{
             min-width: 300px;
             width: 80%;
             padding: 30px 10px;
             margin:10px 0;
-          }
+          }  
+            &:hover{       
+                background-color: black;
+                a{
+                    color: white;               
+                }
+            }
+        }
     }
 
     #contact{
         width: 12rem;
     }
-
     #sign-up{
         background-color: #3d148f;
-        color: white;
-        &:hover{
-            background-color: white;
-            color: black
+        a{
+            color: white;
         }
-    }
+        &:hover{       
+            background-color: white;
+            a{
+                color: black;               
+            }
+        }
+    
 }
 
 .call-to-action{

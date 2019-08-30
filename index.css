@@ -225,15 +225,25 @@ header button:hover {
     margin: 10px 0;
   }
 }
-header #contact {
-  width: 12rem;
+header button:hover {
+  background-color: black;
 }
-header #sign-up {
-  background-color: #3d148f;
+header button:hover a {
   color: white;
 }
-header #sign-up:hover {
+#contact {
+  width: 12rem;
+}
+#sign-up {
+  background-color: #3d148f;
+}
+#sign-up a {
+  color: white;
+}
+#sign-up:hover {
   background-color: white;
+}
+#sign-up:hover a {
   color: black;
 }
 .call-to-action {
